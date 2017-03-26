@@ -1,0 +1,10 @@
+dt {
+    float: left;
+    clear: left;
+    width: 7em;
+}
+
+#noop {
+    display: none;
+    border: 0px;
+}

@@ -1,8 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <form id="sourdough">
-            
-        </form>
-    </body>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <h1>Recipe</h1>
+    <dl id=recipe>
+      <dt>Flour Weight:</dt>
+      <dd id="flour_wt">20 oz</dd>
+
+      <dt>Water Weight:</dt>
+      <dd id="water_wt">14 oz</dd>
+
+      <dt>Starter Weight:</dt>
+      <dd id="starter_wt">15 oz</dd>
+
+      <dt>Salt Weight:</dt>
+      <dd id="salt_wt">0.63 oz</dd>
+
+      <dt>Yeast Weight:</dt>
+      <dd id="yeast_wt">0.25 oz</dd>
+    </dl>
+
+    <h1>Change it Up!</h1>
+    <div>
+      <label for="new_flour_wt">Flour Weight:</label>
+      <input type="text" id="new_flour_wt" size="4" value="20" />oz
+    </div>
+
+    <fieldset>
+      <legend>Baker's Percentages</legend>
+      <div>Flour: 100%</div>
+      <div>
+        <label for="water_pct">Water:</label>
+        <input type="text" id="water_pct" size="4" value="70" />%
+      </div>
+      <div>
+        <label for="starter_pct">Starter:</label>
+        <input type="text" id="starter_pct" size="4" value="75" />%
+      </div>
+      <div>
+        <label for="salt_pct">Salt:</label>
+        <input type="text" id="salt_pct" size="4" value="3.2" />%
+      </div>
+      <div>
+        <label for="yeast_pct">Yeast:</label>
+        <input type="text" id="yeast_pct" size="4" value="1.2" />%
+      </div>
+      <div>
+        <button onclick="updateRecipe()">Submit</button>
+      </div>
+    </fieldset>
+
+    <iframe id="noop" name="noop"></iframe>
+  </body>
 </html>
