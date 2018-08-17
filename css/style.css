@@ -1,10 +1,12 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 dt {
     float: left;
     clear: left;
-    width: 7em;
+    width: 8em;
 }
-
-#noop {
-    display: none;
-    border: 0px;
+dd, label, fieldset > div {
+    padding-bottom: 0.5em;
 }
