@@ -17,17 +17,23 @@
       <dt>Starter Weight:</dt>
       <dd id="starter_wt"></dd>
 
-      <dt>Salt Weight:</dt>
+      <dt>Salt Weight*:</dt>
       <dd id="salt_wt"></dd>
-
-      <dt>Yeast Weight:</dt>
-      <dd id="yeast_wt"></dd>
     </dl>
+    <p>
+      * Don't actually weigh the salt. One tbsp of coarse kosher
+      salt or two tsp of fine table salt each weigh about 0.6 oz.
+    </p>
 
-    <h1>Change it Up!</h1>
+    <h1>Adjust</h1>
+    <p>
+      To scale the whole recipe up or down, adjust the flour weight. To adjust
+      any of the individual ingredients, scale the baker's percentage for that
+      ingredient.
+    </p>
     <div>
       <label for="new_flour_wt">Flour Weight:</label>
-      <input type="text" id="new_flour_wt" size="4" value="20" />oz
+      <input type="text" id="new_flour_wt" size="3" value="20" />oz
     </div>
 
     <fieldset>
@@ -35,19 +41,15 @@
       <div>Flour: 100%</div>
       <div>
         <label for="water_pct">Water:</label>
-        <input type="text" id="water_pct" size="4" value="70" />%
+        <input type="text" id="water_pct" size="3" value="70" />%
       </div>
       <div>
         <label for="starter_pct">Starter:</label>
-        <input type="text" id="starter_pct" size="4" value="75" />%
+        <input type="text" id="starter_pct" size="3" value="75" />%
       </div>
       <div>
         <label for="salt_pct">Salt:</label>
-        <input type="text" id="salt_pct" size="4" value="3.2" />%
-      </div>
-      <div>
-        <label for="yeast_pct">Yeast:</label>
-        <input type="text" id="yeast_pct" size="4" value="1.2" />%
+        <input type="text" id="salt_pct" size="3" value="3.0" />%
       </div>
       <div>
         <button onclick="updateRecipe()">Submit</button>
