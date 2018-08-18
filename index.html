@@ -9,7 +9,7 @@
     <div id="app">
       <dl id=recipe>
         <span v-for="(percent, ingredient) in ingredients">
-          <dt>{{ ingredient }} Weght:</dt>
+          <dt>{{ ingredient }} Weight:</dt>
           <dd>{{ batches * flourWeight * percent / 100 }} oz</dd>
         </span>
       </dl>
