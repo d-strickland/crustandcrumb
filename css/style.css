@@ -1,5 +1,7 @@
-* {
+html {
     font-family: Arial, Helvetica, sans-serif;
+    background: #ffffd7;
+    color: #626262;
 }
 
 dt {
@@ -7,6 +9,18 @@ dt {
     clear: left;
     width: 8em;
 }
-dd, label, fieldset > div {
-    padding-bottom: 0.5em;
+dd {
+    padding-bottom: 0.25em;
+}
+
+p {
+    color: #8a8a8a
+}
+
+input[type=number] {
+    width: 2em;
+}
+
+#recipe {
+    font-weight: 600;
 }

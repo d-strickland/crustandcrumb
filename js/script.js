@@ -1,12 +1,13 @@
-function updateRecipe() {
-    let flour_wt = document.getElementById('new_flour_wt').value;
-    let water_pct = document.getElementById('water_pct').value;
-    let starter_pct = document.getElementById('starter_pct').value;
-    let salt_pct = document.getElementById('salt_pct').value;
-
-    document.getElementById('flour_wt').innerHTML = flour_wt + ' oz';
-    document.getElementById('water_wt').innerHTML = (flour_wt * water_pct / 100) + ' oz';
-    document.getElementById('starter_wt').innerHTML = (flour_wt * starter_pct / 100) + ' oz';
-    document.getElementById('salt_wt').innerHTML = (flour_wt * salt_pct / 100) + ' oz';
-}
-
+const app = new Vue({
+    el: '#app',
+    data: {
+        batches: 2,
+        flourWeight: 10,
+        ingredients: { 
+            Flour: 100,
+            Water: 70,
+            Starter: 75,
+            Salt: 3
+        }
+    }
+})
