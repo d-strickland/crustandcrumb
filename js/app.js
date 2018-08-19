@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 const app = new Vue({
     el: '#app',
     data: {
@@ -10,4 +11,4 @@ const app = new Vue({
             Salt: 3
         }
     }
-})
+});

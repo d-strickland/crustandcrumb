@@ -1,0 +1,25 @@
+{
+  "name": "doughbynumbers",
+  "version": "1.0.0",
+  "description": "Quick-reference bread recipes and quantity calculators.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-strickland/doughbynumbers.git"
+  },
+  "keywords": [
+    "bread",
+    "recipe",
+    "recipes",
+    "calculator"
+  ],
+  "author": "David Strickland <dstrick2989@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d-strickland/doughbynumbers/issues"
+  },
+  "homepage": "https://github.com/d-strickland/doughbynumbers#readme"
+}
