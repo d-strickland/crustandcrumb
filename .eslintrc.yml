@@ -202,7 +202,7 @@ rules:
   require-jsdoc: error
   require-unicode-regexp: error
   rest-spread-spacing: error
-  semi: 'off'
+  semi: error
   semi-spacing: error
   semi-style: error
   sort-imports: error
@@ -215,7 +215,9 @@ rules:
     - never
   space-infix-ops: error
   space-unary-ops: error
-  spaced-comment: error
+  spaced-comment:
+    - error
+    - always
   strict: error
   switch-colon-spacing: error
   symbol-description: error
